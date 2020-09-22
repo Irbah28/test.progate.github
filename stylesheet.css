@@ -1,1 +1,102 @@
+body {
+  font-family: "Avenir Next";
+}
 
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 120px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 45px;
+  padding: 30px 50px;
+}
+
+.header-list li {
+  float: left;
+  padding: 40px 25px;
+}
+
+.main {
+  padding:120px 90px;
+}
+
+.copy-container h1 {
+  font-size: 160px
+}
+
+.copy-container h2 {
+  font-size: 80px;
+}
+.copy-container span {
+  color: #ff4a4a;
+}
+
+
+.contents {
+  height: 600px;
+  margin-top: 120px;
+}
+
+.section-title {
+  border-bottom: 3px solid #dee7ec;
+  font-size: 35px;
+  padding-bottom: 25px;
+  margin-bottom: 40px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 50px;
+}
+
+.contents-item p {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.contact-form {
+  padding-top: 130px;
+}
+
+  /*Add CSS for <input> and <textarea> tags */
+  input, textarea {
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+    font-size: 25px;
+    border: 3px solid #dee7ec;
+  }
+
+/* Add CSS for contact-submit */
+.comtact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 130px;
+  padding 50px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 40px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 25px;
+}
